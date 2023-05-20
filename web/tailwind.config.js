@@ -25,18 +25,6 @@ module.exports = {
           800: '#18181b',
           900: '#121215',
         },
-        gray: {
-          50: '#eaeaea',
-          100: '#bebebf',
-          200: '#9e9ea0',
-          300: '#727275',
-          400: '#56565a',
-          500: '#2c2c31',
-          600: '#28282d',
-          700: '#1f1f23',
-          800: '#18181b',
-          900: '#121215',
-        },
         purple: {
           50: '#f3eefc',
           100: '#d8cbf7',
@@ -61,6 +49,19 @@ module.exports = {
           800: '#027435',
           900: '#025929',
         },
+      },
+
+      backgroundImage: {
+        stripes:
+          'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)',
+      },
+
+      blur: {
+        full: '194px',
+      },
+
+      backgroundSize: {
+        stripes: '100% 8px',
       },
     },
   },
