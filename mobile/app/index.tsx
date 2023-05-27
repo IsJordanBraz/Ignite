@@ -22,7 +22,8 @@ import { api } from '../src/lib/api'
 const discovery = {
   authorizationEndpoint: 'https://github.com/login/oauth/authorize',
   tokenEndpoint: 'https://github.com/login/oauth/access_token',
-  revocationEndpoint: 'https://github.com/settings/connections/applications/',
+  revocationEndpoint:
+    'https://github.com/settings/connections/applications/0d1f6daffcb00b01daa7',
 }
 
 const StyledStripes = styled(Stripes)
@@ -37,7 +38,7 @@ export default function App() {
 
   const [request, response, signInWithGithub] = useAuthRequest(
     {
-      clientId: '',
+      clientId: '0d1f6daffcb00b01daa7',
       scopes: ['identity'],
       redirectUri: makeRedirectUri({
         scheme: 'nlwspacetime',
